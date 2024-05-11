@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    position: relative;
+    background-color: #4c7988;
+  }
+  
+  #calculator {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calculator-outer-box {
+    width: 450px;
+    height: 630px;
+    background-color: rgb(0, 0, 0);
+    border: 15px solid rgb(79, 79, 79);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .input-display {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(251, 255, 255);
+    border-radius: 10px;
+    font-size: 2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .text-number {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .number-box {
+    width: 25%;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .number-box button,
+  .number-box1 button {
+    width: 84px;
+    height: 76px;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 70px;
+    box-shadow: inset -5px -5px 20px rgb(11, 11, 11), inset 5px 5px 20px white;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .number-box button:hover,
+  .number-box1 button:hover {
+    width: 82px;
+    height: 74px;
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 70px;
+    box-shadow: inset -5px -5px 10px rgb(255, 255, 255), inset 5px 5px 10px rgb(0, 0, 0);
+  }
+  
+  .number-box button:active,
+  .number-box1 button:active {
+    width: 85px;
+    height: 77px;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    box-shadow: inset -5px -5px 20px rgb(0, 0, 0), inset 5px 5px 20px white;
+  }
+  
+  .operator button {
+    width: 84px;
+    height: 76px;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 142, 3);
+    border-radius: 70px;
+    box-shadow: inset -5px -5px 20px rgb(11, 11, 11), inset 5px 5px 20px white;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .operator button:hover {
+    width: 82px;
+    height: 74px;
+    font-size: 0.8em;
+    color: rgb(255, 0, 0);
+    font-weight: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    box-shadow: inset -5px -5px 20px rgb(255, 3, 3), inset 5px 5px 20px white;
+  }
+  
+  .number-box1 button {
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 174px;
+    height: 76px;
+    font-size: 3em;
+    font-weight: 600px;
+    border-radius: 34px;
+    box-shadow: inset -5px -5px 20px rgb(0, 0, 0), inset 5px 5px 20px rgb(51, 0, 255);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .number-box1 button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 172px;
+    height: 74px;
+    font-size: 2.8em;
+    font-weight: 600px;
+    border-radius: 34px;
+    box-shadow: inset -5px -5px 100px rgb(0, 0, 0), inset 5px 5px 100px rgb(255, 255, 255);
+  }
+  
+  .number-box1 button:active {
+    width: 176px;
+    height: 77px;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    box-shadow: inset -5px -5px 20px rgb(0, 0, 0), inset 5px 5px 20px white;
+  }
